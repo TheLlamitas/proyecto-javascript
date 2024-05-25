@@ -256,7 +256,7 @@ export default function Component() {
                     <button className="menu-item" key={idx} onClick={() => openModal(item)}>
                       <img src={item.image} alt={item.name} className="menu-image" />
                       <div className="menu-details">
-                          <h3 className='menu-name'>{item.name}</h3>
+                          <h2 className='menu-name'>{item.name}</h2>
                           <p className='menu-description'>{item.description}</p>
                           <p className='menu-price'>{item.price}</p>
                       </div>
